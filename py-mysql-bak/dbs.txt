@@ -1,0 +1,9 @@
+accounting
+commodity
+customer
+fxs_order
+marketing
+message
+oss
+tencent_config
+user

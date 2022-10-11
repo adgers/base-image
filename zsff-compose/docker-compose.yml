@@ -1,0 +1,11 @@
+version:  '3'
+  
+networks:
+  extnetwork:
+    ipam:
+      config:
+      - subnet: 192.168.255.0/24  
+
+
+
+

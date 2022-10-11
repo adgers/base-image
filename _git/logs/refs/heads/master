@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 8bd224b4fe810b6a8e2d19dccad62f1347831690 谢瑞 <xierui@xieruideMBP.lan> 1644569176 +0800	clone: from https://gitee.com/adger-xie/linux-shell-script.git
+8bd224b4fe810b6a8e2d19dccad62f1347831690 da2dd6db668ee13829ac301ff5e611ad56e7b075 谢瑞 <xierui@xieruideMacBook-Pro.local> 1646200255 +0800	commit: add mysql-back
+da2dd6db668ee13829ac301ff5e611ad56e7b075 174d48bb06be5149e59cf6089b4b58de81de47a4 谢瑞 <xierui@xieruideMacBook-Pro.local> 1646201851 +0800	commit: add
+174d48bb06be5149e59cf6089b4b58de81de47a4 be14a96992a9aa46a88bdbc241ccfa7b3ca0a190 谢瑞 <xierui@xieruideMacBook-Pro.local> 1646202494 +0800	commit: update mysql-bak
+be14a96992a9aa46a88bdbc241ccfa7b3ca0a190 e1c548595d2d3df07ba9676bf51189879054b1fc 谢瑞 <xierui@xieruideMacBook-Pro.local> 1646202916 +0800	commit: update
+e1c548595d2d3df07ba9676bf51189879054b1fc bb702947e84aea0f11736f6aac40ed9ed7eb8e02 feng.wang <adgers.xie@gmail.com> 1657159713 +0800	pull: Fast-forward
+bb702947e84aea0f11736f6aac40ed9ed7eb8e02 4845cbf24697ffcbb2c696f0221f5bd8c147c826 feng.wang <adgers.xie@gmail.com> 1657159715 +0800	commit: add
+4845cbf24697ffcbb2c696f0221f5bd8c147c826 450be2969d589b7fc1eef29e02d490162a69479d feng.wang <adgers.xie@gmail.com> 1657532508 +0800	commit: add
+450be2969d589b7fc1eef29e02d490162a69479d 016fcfe84dc25e42b77053d1c201245a1c9c37dd feng.wang <adgers.xie@gmail.com> 1658305416 +0800	commit: add
+016fcfe84dc25e42b77053d1c201245a1c9c37dd 3ab9342f3a0e0674da074aa56f78030eb274c296 feng.wang <adgers.xie@gmail.com> 1658310490 +0800	commit: add pymysql

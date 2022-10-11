@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+  <servers>
+    <server>
+      <id>nexus-public</id>
+      <username>admin</username>
+      <password>12345678</password>
+    </server>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>12345678</password>
+    </server>
+    <server>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>12345678</password>
+    </server>
+
+    <server>
+      <id>fotor</id>
+      <username>fotor</username>
+      <password>cUhUgC!Do@*ul^2G</password>
+    </server>
+  </servers>
+  <mirrors>
+    <mirror>
+        <id>maven-default-http-blocker</id>
+        <mirrorOf>external:dont-match-anything-mate:*</mirrorOf>
+        <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+        <url>http://0.0.0.0/</url>
+        <blocked>false</blocked>
+    </mirror>
+    <mirror>
+      <id>nexus-aliyun</id>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+
+    <mirror>
+      <id>huaweicloudsdk</id>
+      <mirrorOf>huaweicloudsdk</mirrorOf>
+      <name>huaweicloudsdk</name>
+      <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
+    </mirror>
+    <mirror>
+      <id>spring-milestones</id>
+      <mirrorOf>>spring-milestones</mirrorOf>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone/</url>
+    </mirror>
+
+    <mirror>
+      <id>fotor</id>
+      <mirrorOf>repo-n3</mirrorOf>
+      <name>fotor for this Mirror.</name>
+      <url>http://repo-n3.everimaging.cn/repository/maven-public/</url>
+    </mirror>
+    <mirror>
+      <id>nexus-public</id>
+      <mirrorOf>central</mirrorOf>
+      <name>Nexus Repository</name>
+      <url>http://nexus.musichive.com.cn/repository/maven-public/</url>
+      <blocked>false</blocked>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>nexus-profile</id>
+      <repositories>
+        <repository>
+          <id>nexus-public</id>
+          <name>Nexus Repository</name>
+          <url>http://nexus.musichive.com.cn/repository/maven-public/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>nexus-public</id>
+          <name>Nexus Repository</name>
+          <url>http://nexus.musichive.com.cn/repository/maven-public/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>nexus-profile</activeProfile>
+  </activeProfiles>
+</settings>

@@ -1,0 +1,7 @@
+lxmlxtree.py
+setup.cfg
+setup.py
+lxmlxtree.egg-info/PKG-INFO
+lxmlxtree.egg-info/SOURCES.txt
+lxmlxtree.egg-info/dependency_links.txt
+lxmlxtree.egg-info/top_level.txt

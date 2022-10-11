@@ -1,0 +1,12 @@
+- hosts: dev-host
+  gather_facts:  false
+  tasks:
+    - name: install ssh key
+      authorized_key: "user=root key={{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+      ignore_errors: yes
+    - name: change sshd_config  Password no
+      replace: path=/etc/ssh/sshd_config regexp="PasswordAuthentication yes" replace="PasswordAuthentication no"
+      ignore_errors: yes
+    - name: restart sshd service
+      systemd: name=sshd state=restarted
+      ignore_errors: yes
